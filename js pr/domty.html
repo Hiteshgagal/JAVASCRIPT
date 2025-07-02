@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .box{
+        height: 34px;
+        width: 34px;
+        margin: 34px;
+        padding: 34px; 
+        border: 2px solid black; 
+        text-align: center; 
+         }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box" id="red">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+    </div>
+    <script>
+        console.log("welcome to Dom Chapter")
+        //by classname
+      // document.getElementsByClassName(".box").style.backgroundColor = "aqua";
+        //     let boxes = document.getElementsByClassName("box"); 
+        //   boxes[1].style.backgroundColor = "red"
+
+        //   //by id
+        //   document.getElementById("red").style.backgroundColor = "aqua"
+
+        //   //querryselector
+        //   document.querySelector(".box").style.backgroundColor = "yellow"
+
+        //by querryselctorAll
+        // console.log(document.querySelectorAll(".box"))
+        //  document.querySelectorAll(".box").forEach(e =>{
+        //     //  e[1].style.backgroundColor = "green"
+        //  })
+
+        //by Tagname give list css not work
+    //   let a =  document.getElementsByTagName("div");
+    //   console.log(a)
+
+    //by Mathces
+   //  e =  document.getElementsByTagName("div");
+   // in the console e[3].matches("#red")
+   //  console.log(e)
+   
+    //by closes
+    // in the console   e[3].closest(".container")
+
+    //by contains // return true or flase
+//  let a =  document.querySelector("html").contains(document.querySelector(".container"))
+//  console.log(a)
+    </script>
+</body>
+</html>

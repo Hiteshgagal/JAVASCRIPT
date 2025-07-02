@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting and Removing Elements in js</title>
+    <style>
+      .bgg{
+        border: 2px solid rebeccapurple;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="container red bgg" data-creatingby="Hitesh" id="hel" style="color: rgb(0, 0, 0);">
+        <div class="box">Inserting and removing</div>
+        <div class="box">Inserting and removing</div>
+    </div>
+
+
+
+    <script>
+        //  let a =  document.querySelector(".container").innerHTML;
+       //  let a =  document.querySelector(".box").innerHTML = "hey Hitesh";
+       //  let a =  document.querySelector(".container").innerHTML = "hey Hitesh";
+        //  let a =  document.querySelector(".container").innerText;
+      //  let a = document.querySelector(".container").outerHTML;
+        // let a = document.querySelector(".container").tagName;
+    //    let a = document.querySelector(".container").nodeName;
+      //  let a = document.querySelector(".container").textContent;
+     //   let a = document.querySelector(".container").hidden = true;
+       // let a = document.querySelector(".container").hasAttribute("id");
+       // let a = document.querySelector(".container").getAttribute("id");
+      //  let a = document.querySelector(".box").setAttribute("style", "color:aqua");
+      //  let a = document.querySelector(".box").attributes;
+      //   let a = document.querySelector(".container").removeAttribute("style");
+      // let a = document.designMode = "on";
+      //  let a = document.querySelector(".container").dataset;
+      //console.log(a)
+//inserting method
+    //  let div = document.createElement("div");
+    //  div.innerHTML = "I Am <b>robot</b>";
+    //  div.setAttribute("class", "created");
+    // // document.querySelector(".container").append(div)
+    // // document.querySelector(".container").before(div)
+    // //  document.querySelector(".container").after(div)
+    // //document.querySelector(".container").replaceWith(div)
+    // document.querySelector(".container").prepend(div)
+
+    //insert adjust html/text/elemnt
+    //html
+          //  let cont = document.querySelector(".container")
+           // cont.insertAdjacentHTML("afterbegin", "<i>Hellow I am HD</I>")
+           // cont.insertAdjacentHTML("afterend", "<i>Hellow I am HD</I>")
+           // cont.insertAdjacentHTML("beforebegin", "<i>Hellow I am HD</I>")
+          //  cont.insertAdjacentHTML("beforeend", "<i>Hellow I am HD</i>")
+    //text
+        //  let cont = document.querySelector(".container")
+           // cont.insertAdjacentText("afterbegin", "Hellow I am HD")
+           // cont.insertAdjacentText("afterend", "Hellow I am HD")
+           // cont.insertAdjacentText("beforebegin", "Hellow I am HD")
+         //   cont.insertAdjacentText("beforeend", "Hellow I am HD")
+    //element
+
+//removing//  let a =  document.querySelector(".box").remove();
+    //find atributes  let a =  document.querySelector(".container");
+     // let a =  document.querySelector(".container").classList;
+    ///  let a =  document.querySelector(".container").className;
+    //  let a =  document.querySelector(".container").classList.add("rgba");
+      // let a =  document.querySelector(".container").classList.remove("bgg");
+      let a =  document.querySelector(".container").classList.toggle("bgg");
+      console.log(a)
+
+    </script>
+</body>
+
+</html>
