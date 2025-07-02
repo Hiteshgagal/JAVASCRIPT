@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+        <div class="container red bggreen ">
+            <div class="box" data-createtby="Hitesh" data-conseptby="HD">Hey I am </div>
+            <div class="box" style="display: flex;">Hey I am hitesh</div>
+        </div>
+
+    <script>
+        // dynamic direct creat a Element
+        //in serttion method
+        // let h2 = document.createElement("h2");
+        // h2.innerHTML = "This is Heading"
+        // h2.setAttribute("id", "heading");
+        // document.querySelector(".container").append(div);
+   //    document.querySelector(".container").before(div)
+   //  document.querySelector(".container").after(div)
+       //  document.querySelector(".container").replaceWith(div)
+        // document.querySelector(".container").prepend(div)
+
+        //insert adjusthtml/text/element
+       let cont = document.querySelector(".container") 
+        cont.insertAdjacentHTML("afterbegin", "<h4>i am hitesh fropm atalnag</h1>")
+    //  cont.insertAdjacentText("afterbegin", "<h4>i am hitesh fropm atalnag</h1>")
+    //  cont.insertAdjacentElement("afterbegin", "<h4>i am hitesh fropm atalnag</h1>")
+     // cont.insertAdjacentHTML("afterend", "<h4>i am hitesh fropm atalnag</h1>")
+    // cont.insertAdjacentHTML("beforebegin", "<h4>i am hitesh fropm atalnag</h1>")
+    //   cont.insertAdjacentHTML("afterbegin", "<h4>i am hitesh fropm atalnag</h1>")
+      // cont.insertAdjacentHTML("beforeend", "<h4>i am hitesh fropm atalnag</h1>")
+
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .box {
+            height: 60px;
+            width: 60px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+    </div>
+    <script>
+        //by me
+//      let boxes = document.getElementsByClassName("box")
+//   console.log(boxes)
+//   boxes[0].style.backgroundColor = "red"
+
+//      let boxe = document.getElementsByClassName("box")
+//   console.log(boxe)
+//   boxe[1].style.backgroundColor = "green"
+
+//      let bxes = document.getElementsByClassName("box")
+//   console.log(bxes)
+//   bxes[2].style.backgroundColor = "aqua"
+
+//      let boes = document.getElementsByClassName("box")
+//   console.log(boes)
+//   boes[3].style.backgroundColor = "yellow"
+
+//      let oxes = document.getElementsByClassName("box")
+//   console.log(oxes)
+//   oxes[4].style.backgroundColor = "gold"
+    
+//
+// by vi
+console.log("By Video")
+ let con = document.querySelector(".container").children
+
+ function getRandomColor(){
+    let val1 = Math.ceil(0 + Math.random()*255)
+    let val2 = Math.ceil(0 + Math.random()*255)
+    let val3 = Math.ceil(0 + Math.random()*255)
+    return `rgb(${val1}, ${val2}, ${val3})`
+ }
+ Array.from(con).forEach(e=>{
+    e.style.backgroundColor = getRandomColor()
+    e.style.color = getRandomColor()
+ })
+  </script>
+</body>
+
+</html>
